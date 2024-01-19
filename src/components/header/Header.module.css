@@ -1,5 +1,6 @@
 .header {
   background-color: aquamarine;
+  padding: 0px 20px;
 }
 .header_container {
   display: flex;
@@ -7,4 +8,14 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+}
+.header_btn {
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 20px;
 }

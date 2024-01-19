@@ -4,8 +4,8 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.header_container}>
-        <h2>Skilled</h2>
-        <button>Get Started</button>
+        <h1>Skilled</h1>
+        <button className={styles.header_btn}>Get Started</button>
       </div>
     </header>
   );
