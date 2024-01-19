@@ -5,12 +5,12 @@ export const CourseContainer = () => {
     <>
       <div className={styles.course_container}>
         <div className={styles.info_container}>
-          <h1>Maximize skill, minimize budget</h1>
-          <p>
+          <h1 style={{fontSize: "40px", marginBottom: "10px"}}>Maximize skill, minimize budget</h1>
+          <p style={{marginBottom: "10px"}}>
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
           </p>
-          <button>Get started</button>
+          <button className={styles.started_btn}>Get started</button>
         </div>
         <div className={styles.picture}>
           <picture>

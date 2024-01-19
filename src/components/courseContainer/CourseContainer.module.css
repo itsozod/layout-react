@@ -13,16 +13,26 @@
 
 .info_container {
   flex: 1;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .picture {
   flex: 1;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .default_img {
   width: 100%;
   height: auto;
   display: block;
+}
+.started_btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #fb6f92;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
 }

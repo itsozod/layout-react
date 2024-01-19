@@ -1,16 +1,16 @@
-.header {
-  background-color: #edede9;
+.footer {
   padding: 8px 20px;
-  /* margin: 10px; */
+  background-color: #1d3557;
 }
-.header_container {
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  color: #fff;
 }
-.header_btn {
+.footer_btn {
   padding: 10px 15px;
   border-radius: 25px;
   cursor: pointer;
