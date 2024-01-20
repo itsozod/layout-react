@@ -12,13 +12,11 @@
 }
 
 .info_container {
-  flex: 1;
-  /* max-width: 600px; */
+  flex: 2;
 }
 
 .picture {
   flex: 1;
-  /* max-width: 600px; */
 }
 
 .default_img {
@@ -31,8 +29,9 @@
   border-radius: 20px;
   border: none;
   outline: none;
-  background-color: #fb6f92;
+  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
   cursor: pointer;
   color: #fff;
   font-size: 20px;
+  cursor: pointer;
 }

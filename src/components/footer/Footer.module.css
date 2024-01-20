@@ -16,7 +16,7 @@
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: #3a86ff;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
   color: #fff;
   font-size: 20px;
 }
